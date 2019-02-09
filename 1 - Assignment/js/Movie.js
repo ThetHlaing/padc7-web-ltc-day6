@@ -9,7 +9,7 @@ class Movie{
         this.detailTemplate = template;
         const result = this.detailTemplate
         .replace("{{this.title}}",this.title)
-        .replace("{{this.poster}}",`https://image.tmdb.org/t/p/w500${this.poster}`)
+        .replace("{{this.poster}}",this.poster)
         .replace("{{this.casts}}",this.casts)
         .replace("{{this.link}}",this.link);
         return result;

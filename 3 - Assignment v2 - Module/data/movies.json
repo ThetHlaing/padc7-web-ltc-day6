@@ -1,6 +1,6 @@
-export default {
+{
     "movies": [{
-            "title": "Lego Marvel Super Heroes: Avengers Reassembled",
+            "title": "Lego 2 Marvel Super Heroes: Avengers Reassembled",
             "poster": "https://m.media-amazon.com/images/M/MV5BNWU3MDM2ZmMtZjU1MC00N2Y4LTgwYmQtMDQ2MzY5M2E5OWFmXkEyXkFqcGdeQXVyNjg5MzE4NTA@._V1_SX300.jpg",
             "casts": "Legos ",
             "link": "https://www.google.com/"

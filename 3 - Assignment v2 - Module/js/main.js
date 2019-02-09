@@ -1,8 +1,8 @@
 import Movie from '/js/Movie.js';
 
 function readData(data,moviearray = []) {    
-    for (let movie of data.movies) {
-        const movieObj = new Movie(movie.title, movie.poster, movie.casts, movie.link);
+    for (let movie of data.results) {
+        const movieObj = new Movie(movie.title, movie.poster_path, movie.overview, "");
         moviearray.push(movieObj);
     }
     return moviearray;
